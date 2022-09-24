@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Кофе</title>
+    <meta name="keywords" content="кофе, кафе, кофейня, coffee">
+    <meta name="description" content="Сайт кофейни">
+    <link rel="stylesheet" href="slyle.css">
+    <link rel="icon" href="img/1.png">
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Добавить плавную прокрутку до всех ссылок
+      $("a").on('click', function(event) {
+    
+        // Убедись в этом что .hash имеет значение перед переопределением поведения по умолчанию
+        if (this.hash !== "") {
+          // Запретить поведение щелчка якоря по умолчанию
+          event.preventDefault();
+    
+          // Хранить хэш
+          var hash = this.hash;
+    
+          // Использование метода animate() jQuery для добавления плавной прокрутки страницы
+          // Необязательное число (800) указывает количество миллисекунд, необходимых для прокрутки до указанной области
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 2000, function(){
+    
+            // Добавить хэш (#) для URL-адреса после завершения прокрутки (поведение щелчка по умолчанию)
+            window.location.hash = hash;
+          });
+        } // Конец, если
+      });
+    });
+    </script>
+
+</head>
+<!-- head -->
+
+<body>
+    <div class="nav" id="home">
+        <div class="yy">
+        <div class="nav1">
+            <a href="#ab">About</a>
+            <a href="#mu">Menu</a>
+            <a href="#ad">Info</a>
+            <a href="#bo">Booking</a>
+        </div>
+
+        <div class="logo"> <img src="img/IMAGE.svg"></div>
+
+        <div class="nav2">
+            <a href="#"> <img src="img/pos.svg" alt=""></a>
+            <a href="#"><img src="img/f.png" alt=""></a>
+            <a href="#"><img src="img/p.png" alt=""></a>
+
+        </div>
+
+        </div>
+
+    </div>
+
+    
+<!--  меню -->
+
+
+<div class="article" >
+    <div class="imgg">
+
+<img src="img/photo.png" alt="" ></div>
+
+    </div>
+    <!-- фото
+    
+    -->
+
+    <div class="ab"> <h3> About Us</h3>
+     <p id="ab">
+        Tucked away in the corner of Wellington, Latte Cafe is a local neighbourhood 
+        cafe and bar. Latte is all about doing what we love, in a city that we love.
+         We keep stocked with local produce and pastries. Bring your family for a bite, 
+         or meet your friends for a coffee or warm drink.
+         
+
+     </p>
+     <button class="btn1" onclick="window.location.href = '#home';">Home</button> 
+     </div>
+     <!--  -->
+
+     <div class="latt" >
+
+       <div class="la2"> <h3>menu</h3>
+        <p id="mu">We change our menu every season. Here is what we are currently dishing up.</p>
+
+        <div class="rrr"><button class="btn">Food Menu</button>
+        <button class="btn">Drinks Menu</button>
+        <button class="btn">Takeaway Menu</button>
+        <button class="btn" onclick="window.location.href = '#home';">Home</button> </div>  </div>
+
+
+        <div class="ff"><img src="img/cof.png" alt="" ></div>
+
+     </div>
+
+     <!--  -->
+
+ <div class="adr" id="ad">
+
+    <table>
+        <thead> 
+            <tr>
+                <th>Location</th>
+                <th>Hours</th>
+                <th>Mondays?</th>
+        
+            </tr>
+
+            
+
+    </thead>
+
+
+
+    <tbody>
+        <tr>
+                <td>
+                     101 Cuba St, 
+                    Te Aro, Wellington
+                </td>
+
+                <td>
+                     Tuesday to Friday 
+                    7AM - 3PM 
+                </td>
+
+                <td>
+                    We are closed on Mondays   to reflect and refuel
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Saturday to Sunday 
+                    8AM - 3PM
+                </td>
+                <td></td>
+            </tr>
+
+
+        
+    </tbody>
+    </table>
+    <button class="btn1" onclick="window.location.href = '#home';">Home</button> 
+</div>
+
+    <!--  -->
+<div class="foto">
+   <div class="gg"> <div class="ris"><img src="img/vin.png" alt="" id="a">
+    <img src="img/vil.png" alt="" id="b"></div>
+    <div class="ggL"><img src="img/caff.png" alt=""></div>
+
+</div> </div>
+
+
+<!--  -->
+<div class="drink">
+    <div class="awn">
+    <div class="aw"> 
+
+        <p id="bb"> Award winning cafe and bar.</p> </div>
+
+     
+
+     <div class="aw2" id="bo"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut accusantium dolore? Incidunt, ducimus cum neque vitae possimus ut sed quidem aliquam fuga animi rem. Dolorem, exercitationem voluptas. Porro, molestias. </p> </div>
+    </div>
+</div>
+</div>
+     <!--  -->
+
+
+<div class="fall">
+        <div class="fallc">
+        <!-- <div class="red"> -->
+            <a href="#home">home</a>
+            <a href="#ab">About</a>
+            <a href="#mu">Menu</a>
+            <a href="#ad">Info</a>
+            <a href="#ad">Contact</a>
+            <a href="#bb">Booking</a>
+            <a href="#">Privacy Policy</a> <br>
+            <a href="#">Style Guide</a>
+            <a href="#">License</a>
+            <a href="#">Instruction</a>
+            <a href="#">Changelog</a>
+            <a href="#">password</a>
+            <a href="#">404</a>
+        <!-- </div> -->
+       
+    </div>
+</div>
+
+</body>
+</html>

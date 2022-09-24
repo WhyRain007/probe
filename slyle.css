@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Inter&family=Jost&display=swap');
+
+
+
+
+.body  {    margin: 0;
+    padding: 0;  background: #ec6585; font-family: inter;
+}
+body {
+    scroll-behavior: smooth;
+  }
+
+.nav {background: #4A2B33;
+    height: 120px;
+    width: 1440px ;
+    margin: auto;
+    margin-top: 0;
+    
+    
+   
+}
+
+.nav a {
+    font-family: inter;
+    font-size: 15 px;
+    color:#D27487 ; text-decoration: none; padding: 20px;
+    
+    
+}
+
+.nav2 {display: inline;   text-align: right;}
+.logo {   text-align: center; }
+.yy { height: 70px;
+    width: 1328px ; display: flex;  align-items:flex-end;  justify-content: space-between;
+     text-align: right; margin-left: 56px; text-decoration: none;}
+
+     /* Меню */
+
+
+.article {background: #4A2B33;
+    height: 800px;
+    width: 1440px ;
+    margin: auto;}
+    
+    
+.imgg { text-align: center; height: 800px;
+    width: 1440px ;  }
+
+    .imgg img {margin-top: 50px;}
+/* фото */
+
+h3 {font-size: 17px; font-family: jost; width: 93px; height: 22px; text-align: center; margin: auto; }
+p { font-family: inter; font-size: 32px ; width: 869px; height: 224px; text-align: center; margin: auto; margin-bottom: 244px;}
+
+.ab .btn1 {margin: auto; background: #92928d; border: none; width: 150px; height: 58px;}
+.ab a { font-size: 17px; 
+    font-family: inner; text-decoration: none;}
+
+.latt{ background: #E9E9E3; width: 1440px; height: 1277px; margin: auto; display: flex;  justify-content: space-between; }
+.latt H3 { text-align: left; width: 49px; height: 22px; margin-top: 120px; margin-left: 56px; }
+.latt p {text-align: left; width: 558px; height: 135px; margin-left: 56px;  }
+
+
+.btn { border: 2px solid #6F6F64; width: 531px; height: 58px; font-size: 17px; font-family: inner; text-align: center; display: block; margin-top: 12px; margin-left: 56px;}
+.btn:hover { background: #6F6F64;}
+
+.btn1 {border: 2px solid #6F6F64;
+     width: 531px; height: 58px; 
+     font-size: 17px; 
+     font-family: inner;
+      text-align: center; 
+      display: block; 
+      margin-top: 12px;
+       margin-left: 56px; 
+       text-decoration: none;
+       color: #fff;
+       margin: auto;
+
+
+}
+
+
+.btn1:hover { background: #6F6F64;}
+
+.ff {margin-left: 56px;  width: 664px; height: 1037 px; margin-right: 56px; margin-top: 120px;}
+.la2 { width: 558px;   }
+
+
+.adr {background: #AA9E54; margin: auto; width: 1440px; height: 473px;}
+.adr .btn1 {margin: auto; background: #92928d; border: none; width: 150px; height: 58px;}
+
+thead {
+    font-family: azeret mono; font-size: 18px;
+}
+ tbody {
+ font-family: inter;
+
+
+ }
+
+ table { color: fff;text-align: center; margin: auto;   padding: 120px; color: #fff;}
+
+ 
+ td {   font-size: 25px; padding-bottom: 20px;}
+ th {padding: 0; font-size: 12px; }
+
+
+
+ /*  */
+
+
+ .ris {  width: 664px;}
+ .gg {display: flex; margin: auto;  text-align: center;margin: auto; width: 1368px; height: 640px;   }
+ .ggL { width: 664px;}
+ .gg 
+
+ #b {margin-top: 37px;}
+
+ .foto {margin-top: 152px; margin-bottom: 120px;}
+
+ /*  */
+ 
+
+ .drink { width: 1440px; height: 461px; background: #4A2B33; margin: auto; }
+
+ .aw p{font-family: azeret mono; font-size: 47px; color: #D27487; width: 413px;}
+
+ .aw2 p { font-family: inter; font-size: 18px;color: #D27487; width: 596px;}
+ .awn {display: flex;}
+
+ .aw {margin-top: 121px ; margin-left: 56px;}
+ .aw2 {margin-top: 139px; margin-left: 267px;}
+
+ /*  */
+
+ .fall { background: #cfcfcf; width: 1438px; height: 187px; margin: auto;text-align: center; margin: auto; margin-top: 0px;  border: 2px solid #cfcfcf;}
+ .fall a { font-family: inter; font-size: 15px;color: #1F1F1F ; text-decoration: none; margin-right: 10px; }
+
+ 
+ .fallc {margin-top: 56px;}
+
+ 
